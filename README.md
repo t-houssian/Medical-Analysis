@@ -26,19 +26,20 @@ Steps to run the software:
 
 The specific purpose of this project was to learn get solid information from data through python and visualization. I also thought as an extra challenge to use the firestore database. And since I have experience with Django I thought it would be cool to bring the code to life and connect the database to a django app rather than just a text based app.
 
-[Software Demo Video](https://youtu.be/XnJg7uGMXBo)
+[Software Demo Video](https://youtu.be/FF7lp5u8-b4)
 
-# Relational Database
+# Data Analysis Results
 
-Database used: sqllite3
-The database I created just has one table currently, the food_prices table:
-food_prices:
-- id integer PRIMARY KEY
-- cm_name text NOT NULL - name of the good
-- adm0_name text NOT NULL - name of the country
-- um_name text NOT NULL - name of the unit of measurment
-- mp_year text NOT NULL - year of the data
-- mp_price integer NOT NULL - price of the data, average to create a single price unit
+Questions Answered:
+Max value for each report (Ex: Life Expectancy At Birth Max: 86.94, Japan)
+Min value for each report (Ex: Life Expectancy At Birth Min: 27.97, Haiti)
+Average Value for each report (Ex: Life Expectancy At Birth Average: 70.22060109289617)
+Conclusion based on these results: You can expect to live about 70 years but in Japan
+you might live longer and Haiti shorter.
+
+Other Questions Answered:
+- Date range query
+- Country Specific Query
 
 # Development Environment
 
