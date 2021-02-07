@@ -59,7 +59,7 @@ Language and tools used:
 # Useful Websites
 
 * [dataset](https://www.kaggle.com/utkarshxy/who-worldhealth-statistics-2020-complete)
-* [conda env] (https://medium.com/@cbrannen/importing-data-into-firestore-using-python-dce2d6d3cd51(https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+* [conda env] (https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 * [pandas docs](https://pandas.pydata.org/docs/)
 * [pyviz panel](https://panel.holoviz.org/)
 * [hv plots](https://hvplot.holoviz.org/index.html)
