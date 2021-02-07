@@ -26,7 +26,7 @@ Steps to run the software:
 
 The specific purpose of this project was to learn get solid information from data through python and visualization. I also thought as an extra challenge to use the firestore database. And since I have experience with Django I thought it would be cool to bring the code to life and connect the database to a django app rather than just a text based app.
 
-[Software Demo Video](https://youtu.be/XnJg7uGMXBo)
+[Software Demo Video](https://youtu.be/FF7lp5u8-b4)
 
 # Data Analysis Results
 
