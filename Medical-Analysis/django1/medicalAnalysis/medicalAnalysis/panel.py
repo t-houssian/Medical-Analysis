@@ -21,7 +21,7 @@ import dask.dataframe as dd
 
 frames = []
 
-path = "/home/tyler/Desktop/School Stuff/Applied Programming/Medical-Analysis/django1/medicalAnalysis/medicalAnalysis/"
+path = "/home/tyler/Desktop/School Stuff/Applied Programming/Medical-Analysis/Medical-Analysis/django1/medicalAnalysis/medicalAnalysis/"
 
 collections = ['lifeExpectancyAtBirth',
  'maternalMortalityRatio',
@@ -36,7 +36,7 @@ collections = ['lifeExpectancyAtBirth',
  'population25SDG3.8.2']
 try: 
     # Use a service account
-    cred = credentials.Certificate('/home/tyler/Desktop/School Stuff/Applied Programming/Medical-Analysis/django1/medicalAnalysis/medicalAnalysis/workshop1-60a05-firebase-adminsdk-egq5y-bda0fb5ee1 (1).json')
+    cred = credentials.Certificate('/home/tyler/Desktop/School Stuff/Applied Programming/Medical-Analysis/Medical-Analysis/django1/medicalAnalysis/medicalAnalysis/workshop1-60a05-firebase-adminsdk-egq5y-bda0fb5ee1 (1).json')
     firebase_admin.initialize_app(cred)
     db = firestore.client()
     for x in collections[:1]:
